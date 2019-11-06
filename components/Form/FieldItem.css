@@ -1,0 +1,18 @@
+.FormField{
+    margin-bottom: 20px;
+}
+.FormField,
+.FieldInput{
+    box-sizing: border-box;
+    width: 100%;
+}
+.FieldInput{
+    border: 0;
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+    text-indent: 5px;
+}
+.FormField input{
+    margin-top: 5px;
+}

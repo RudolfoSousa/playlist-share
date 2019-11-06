@@ -1,0 +1,11 @@
+.Title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    text-align: left;
+}
+.SubTitle{
+    font-size: 20px;
+    max-width: 700px;
+    text-align: left;
+}
