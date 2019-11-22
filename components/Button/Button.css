@@ -1,0 +1,27 @@
+button{
+    border: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: uppercase;
+}
+.Small{
+    font-size: 12px;
+    min-width: 100px;
+    padding: 5px;
+}
+.Default{
+    font-size: 16px;
+    min-width: 150px;
+    padding: 8px;
+}
+.Large{
+    font-size: 18px;
+    min-width: 180px;
+    padding: 15px;
+}
+.ExtraLarge{
+    font-size: 20px;
+    min-width: 200px;
+    padding: 18px;
+}

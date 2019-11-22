@@ -31,11 +31,16 @@ const Home = ({}) => {
                 </div>
                 <div className={styles.FormWrapper}>
                     <Form 
+                        className={styles.FormHome}
+                        buttonProps={
+                            {
+                                label: "Entrar"
+                            }
+                        }
                         fields={[
                             {name: "username", label: "Usuário"},
                             {name: "password", label:"Senha", type: "password"}]} 
                         title="Acesse sua conta" 
-                        className={styles.FormHome}
                     />
                 </div>
             </PageWrapper>
